@@ -1,5 +1,5 @@
 {
-  "name": "random-quote",
+  "name": "shakespears-twitter",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,7 +8,7 @@
     "react-dom": "^16.5.2",
     "react-scripts": "1.1.5"
   },
-  "homepage": "https://atangyj.github.io/tyj/abc",
+  "homepage": "https://atangyj.github.io/shakespears-twitter/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
