@@ -3,15 +3,15 @@ import tweet from './Twitter_Social_Icon_Rounded_Square_White.png';
 
 const style = {
     position: 'absolute',
-    bottom: '25px',
-    left: '20px',
+    bottom: '1.5rem',
+    left: '1.25rem',
 
 }
 
 const styleBtn = {
-  borderRadius: '1px',
-  width: '30px',
-  height: '30px'
+  borderRadius: '.2rem',
+  width: '2.4rem',
+  height: '2.4rem'
 }
 
 export class TweetButton extends React.Component{

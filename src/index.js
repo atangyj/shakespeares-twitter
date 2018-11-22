@@ -85,16 +85,19 @@ class RandomQuote extends React.Component {
 
   render(){
     return (
-      <div id="container" style = {bgImageStyle}>
-        <div id="quote-box">
-          <div className="image-cropper">
-            <img className="avatar" src= {this.state.photo} alt="" />
-          </div>
-          <p id="author">{this.state.author}</p>
-          <p id="text">{this.state.quote}</p>
+      <div>
+        <div id="container-bg" style = {bgImageStyle}></div>
+        <div id="container">
+          <div id="quote-box">
+            <div className="image-cropper">
+              <img className="avatar" src= {this.state.photo} alt="" />
+            </div>
+            <p id="author">{this.state.author}</p>
+            <p id="text">{this.state.quote}</p>
 
-          <TweetButton id="tweet-quote" onClick = {this.handleTweet}/ >
-          <RandomButton id="new-quote" onClick = {this.handleClick} />
+            <TweetButton id="tweet-quote" onClick = {this.handleTweet}/ >
+            <RandomButton id="new-quote" onClick = {this.handleClick} />
+          </div>
         </div>
       </div>
     );
