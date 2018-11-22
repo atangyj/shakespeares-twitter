@@ -15,7 +15,7 @@ body {
 #container-bg {
   position: absolute;
   top: 0;
-  opacity: .9;
+  /* opacity: .9; */
 }
 
 #quote-box {
